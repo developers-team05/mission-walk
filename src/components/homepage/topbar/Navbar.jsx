@@ -6,9 +6,16 @@ const Navbar = () => {
     <>
         {/* <!-- Navbar Start --> */}
     <nav className="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
-        <a href="index.html" className="navbar-brand p-0">
-            <h1 className="m-0 text-primary"><i className="fa fa-tooth me-2"></i>DentCare</h1>
-        </a>
+        {/* <a href="index.html" className="navbar-brand p-0">
+            <h1 className="m-0 text-primary"><i className="fa fa-tooth me-2"></i>Mission-walk</h1>
+        </a> */}
+       <a href="index.html" className="navbar-brand p-0">
+    <h1 className="m-0 text-primary">
+        <img src="img/logo.png" alt="Mission-walk Logo" style={{ maxHeight: '100px',maxWidth:'150px' }} />
+    </h1>
+</a>
+
+
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
         </button>
