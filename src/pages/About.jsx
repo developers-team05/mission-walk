@@ -25,19 +25,16 @@ const About = () => {
                 <h5 className="position-relative d-inline-block text-primary text-uppercase">
                   About Us
                 </h5>
-                <h1 className="display-5 mb-0">
-                  The Worlds Best Dental Clinic That You Can Trust
+                <h1 className="display-5 mb-0" style={{ fontSize: '26px' }}>
+                Mission Walk : The story of my Entrepreneurship Journey
                 </h1>
               </div>
-              <h4 className="text-body fst-italic mb-4">
-                Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no
-                lorem sit clita duo justo magna dolore
+              <h4 className="text-body fst-italic mb-4"style={{ fontSize: '22px' }}>
+                Dr. Ravi Badavath
+              <br/>(Neuro physiotherapist, Founder of “Mission Walk”)
               </h4>
-              <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum et
-                tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum
-                et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo
-                justo et tempor eirmod magna dolore erat amet
+              <p className="mb-4" style={{ fontSize: '18px' }}>
+              "Did you know that  India ranks second worldwide with the highest number of people needing rehabilitation at least once during their lifetime? However, rehabilitation centers in India are few and unequipped to meet this raging demand. According to Glassdoor: the national average salary for a physiotherapist in India is Rs. 25547. In association with IAP, Medvarsity brings together a webinar series that chalks out a pathway to upskill and start your own practice. Come become your own boss today! Key takeaways:  Upskill and learn from leading industry experts on how to start your own business in physiotherapy and physiatry Acquire career guidance for doctors interested in Physiatry/orthopedic and Physiotherapy. Learn how modern cutting-edge technology enables physiotherapy sessions and holistic rehabilitation".
               </p>
               <div className="row g-3">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
@@ -74,7 +71,7 @@ const About = () => {
                 <img
                   className="position-absolute w-100 h-100 rounded wow zoomIn"
                   data-wow-delay="0.9s"
-                  src="img/about.jpg"
+                  src="img/img_150457_drravi9x6.jpg"
                   style={{ objectFit: "cover" }}
                 />
               </div>
