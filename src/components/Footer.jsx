@@ -30,9 +30,11 @@ const Footer = () => {
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <h3 className="text-white mb-4">Get In Touch</h3>
-                    <p className="mb-2"><i className="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
-                    <p className="mb-2"  href="mailto:sachinshkaya@gmail.com" ><i className="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
-                    <p className="mb-0"  href="tel:+91 12345678"><i className="bi bi-telephone text-primary me-2"></i>2348101234567</p>
+                    <p className="mb-2"><i className="bi bi-geo-alt text-primary me-2"></i>Hyderabad, Telangana</p>
+                    <p className="mb-2"><i className="bi bi-geo-alt text-primary me-2"></i>Greater Noida, Uttar Pradesh</p>
+                    <p className="mb-2"><i className="bi bi-geo-alt text-primary me-2"></i>Pune, Maharastra</p>
+                    <p className="mb-2"  href="mailto:sachinshkaya@gmail.com" ><i className="bi bi-envelope-open text-primary me-2"></i>rehab@missionwalk.in</p>
+                    <p className="mb-0"  href="tel:+91 12345678"><i className="bi bi-telephone text-primary me-2"></i>+91 9177300194</p>
                     
                 </div>
                 <div className="col-lg-3 col-md-6">
