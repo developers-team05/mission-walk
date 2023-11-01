@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+
   return (
     <>
       {/* <!-- Navbar Start --> */}
@@ -34,10 +35,6 @@ const Navbar = () => {
             <Link to="/about" className="nav-item nav-link">
               About Us
             </Link>
-            {/* <Link to="/service" className="nav-item nav-link">Programs</Link> */}
-            {/* <Link to="index.html" className="nav-item nav-link active">Home</Link> */}
-            {/* <Link to="about.html" className="nav-item nav-link">About</Link> */}
-            {/* <Link to="service.html" className="nav-item nav-link">Service</Link> */}
             <div className="nav-item dropdown">
               <Link
                 to="/service"
@@ -80,31 +77,32 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
+            {/* Therapy Tools */}
             <div className="nav-item dropdown">
               <Link
-                to="#"
+                to="/therapy-tools"
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
                 Therapy Tools
               </Link>
               <div className="dropdown-menu m-0">
-                <Link to="price.html" className="dropdown-item">
+                <Link to="/therapy-tools/neurosuit" className="dropdown-item">
                   Neurosuit
                 </Link>
-                <Link to="team.html" className="dropdown-item">
+                <Link to="/therapy-tools/spidercage" className="dropdown-item">
                   Spidercage
                 </Link>
-                <Link to="testimonial.html" className="dropdown-item">
+                <Link to="/therapy-tools/dmi" className="dropdown-item">
                   DMI
                 </Link>
-                <Link to="appointment.html" className="dropdown-item">
+                <Link to="/therapy-tools/functional-estim" className="dropdown-item">
                   Functional Estim
                 </Link>
-                <Link to="appointment.html" className="dropdown-item">
+                <Link to="/therapy-tools/galileo" className="dropdown-item">
                   Galileo
                 </Link>
-                <Link to="appointment.html" className="dropdown-item">
+                <Link to="/therapy-tools/theratogs" className="dropdown-item">
                   Theratogs
                 </Link>
               </div>
